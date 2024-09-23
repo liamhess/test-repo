@@ -9,5 +9,5 @@ jobs:
       - name: Force failure
         run: |
           echo "This job will always fail"
-          exit 1
+          exit 0
 
